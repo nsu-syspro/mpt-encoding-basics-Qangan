@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-# ІлТХбвШ ФРвг Т дЮаЬРвХ:
+# ВІГ«Г’Г•ГЎГўГ Г”ГђГўГЈ Г’ Г¤ГћГ ГњГђГўГ•:
 #   Freitag, 13. Oktober 2023
-date '+???' -d "$@"
+export LC_ALL=de_DE.utf8
+date "+%A, %d. %B %Y" -d "$@"
